@@ -2,21 +2,13 @@
 import homou from "./homou.jpg";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { IoIosMenu } from "react-icons/io";
-import { useRef, useState, useEffect } from "react";
-import { gsap } from "gsap";
+import { useState } from "react";
 
 const Navbar = () => {
   const [isExpanded, setIsExpanded] = useState(false);
-  const navRef = useRef();
 
-  useEffect(() => {
-    gsap.fromTo(navRef.current, { y: -100 }, { y: 0, duration: 1 });
-  });
   return (
-    <nav
-      ref={navRef}
-      className="font-lato text-primary  lg:flex mb-24 md:ml-20 my-5 text-xl "
-    >
+    <nav className="font-lato text-primary  lg:flex mb-24 md:ml-20 my-5 text-xl ">
       <div className=" md:flex-[1_0_0%] lg:flex-[1_0_30%]">
         <img src={homou} alt="logo" />
       </div>
