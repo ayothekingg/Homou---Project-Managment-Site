@@ -18,7 +18,6 @@ module.exports = {
 
       fontFamily: {
         lato: ["Lato"],
-        neue: ["NeueMontreal", "cursive"],
       },
     },
   },
