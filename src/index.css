@@ -1,0 +1,12 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+@font-face {
+  font-family: "NeueMontreal";
+  src: local("C:\Users\Ayo\fonts\NeueMontreal.otf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
