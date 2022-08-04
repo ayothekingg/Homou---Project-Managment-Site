@@ -2,6 +2,7 @@
 import gsap from "gsap";
 import { useRef, useEffect } from "react";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import Timer from "./Timer.jpg";
 
 const Features = () => {
   gsap.registerPlugin(ScrollTrigger);
@@ -27,7 +28,7 @@ const Features = () => {
 
   return (
     <section ref={featureRef} className=" max-w-[1240px] lg:ml-20 mb-40">
-      <h1 className="text-center text-4xl mb-8 font-bold">
+      <h1 className="text-center text-3xl md:text-4xl mb-8 font-bold">
         Our Amazing Features !
       </h1>
 
@@ -46,8 +47,10 @@ const Features = () => {
               fill="#127099"
             />
           </svg>
-          <h1 className="text-4xl text-manage">An all-encompassing platform</h1>
-          <h2 className="text-2xl text-primary font-lato">
+          <h1 className="text-3xl md:text-4xl text-manage">
+            An all-encompassing platform
+          </h1>
+          <h2 className="text-xl md:text-2xl text-primary font-lato">
             Mobilize everything into a single, central platform to handle all of
             your productivity objectives and track progress.
           </h2>
@@ -67,10 +70,10 @@ const Features = () => {
             />
           </svg>
 
-          <h1 className="text-4xl text-manage">
+          <h1 className="text-3xl md:text-4xl text-manage">
             Set Regular Monitoring Intervals{" "}
           </h1>
-          <h2 className="text-2xl text-primary font-lato ">
+          <h2 className="text-xl md:text-2xl text-primary font-lato ">
             Settle on an interval that fits your needs and the project timeline,
             and communicate those reporting expectations to your team.
           </h2>
@@ -93,10 +96,10 @@ const Features = () => {
             />
           </svg>
 
-          <h1 className="text-4xl text-manage">
+          <h1 className="text-3xl md:text-4xl text-manage">
             Customize Your Features Easily.{" "}
           </h1>
-          <h2 className="text-2xl text-primary font-lato">
+          <h2 className="text-xl md:text-2xl text-primary font-lato">
             To automate projects and make work easier, write your own code. To
             perform any other task, schedule notifications, call webhooks, or
             set off business rules.
@@ -106,36 +109,12 @@ const Features = () => {
           ref={featureRef}
           className="feature-ref max-w-sm w-full [&>*]:mb-8"
         >
-          <svg
-            className="block m-auto lg:inline"
-            width="50"
-            height="50"
-            viewBox="0 0 50 50"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlnsXlink="http://www.w3.org/1999/xlink"
-          >
-            <rect width="50" height="50" fill="url(#pattern0)" />
-            <defs>
-              <pattern
-                id="pattern0"
-                patternContentUnits="objectBoundingBox"
-                width="1"
-                height="1"
-              >
-                <use xlinkHref="#image0_86_68" transform="scale(0.02)" />
-              </pattern>
-              <image
-                id="image0_86_68"
-                width="50"
-                height="50"
-                xlinkHref="data:image/png;base64,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"
-              />
-            </defs>
-          </svg>
+          <img className="block m-auto lg:inline" src={Timer} />
 
-          <h1 className="text-4xl text-manage">Real-time Collaboration</h1>
-          <h2 className="text-2xl text-primary font-lato">
+          <h1 className="text-3xl md:text-4xl text-manage">
+            Real-time Collaboration
+          </h1>
+          <h2 className="text-xl md:text-2xl text-primary font-lato">
             Work together in real time with your team and clients to get your
             questions answered and projects completed on schedule and within
             budget.

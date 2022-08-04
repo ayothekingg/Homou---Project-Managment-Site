@@ -35,10 +35,10 @@ const Deadline = () => {
             ref={deadlineRef}
             className="text-center flex-col [&>*]:my-2 max-w-[380px] lg:text-start"
           >
-            <h1 className="text-4xl lg:text-5xl lg:leading-[50px] text-manage">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl lg:leading-[50px] text-manage">
               Avoid Missing Project Deadline
             </h1>
-            <h2 className="text-2xl text-primary">
+            <h2 className="text-xl md:text-2xl text-primary">
               To evaluate what, when, and who to prioritize, plan ahead by
               comparing the hours that your team have worked against the
               estimated times.

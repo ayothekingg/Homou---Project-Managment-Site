@@ -143,7 +143,9 @@ const Testimonial = () => {
       </svg>
 
       <div className="flex flex-col items-center">
-        <h1 className="text-4xl mb-8 font-bold">What Brands Say About Us</h1>
+        <h1 className="text-3xl text-center md:text-4xl mb-8 font-bold">
+          What Brands Say About Us
+        </h1>
         {firstClick ? (
           <div className="testimonial-ref max-w-sm text-center px-4 py-4 md:max-w-3xl md:pt-16 pb-4 md:pl-12 flex flex-col  bg-white rounded-lg w-full shadow-lg md:text-start">
             <div className="max-w-sm md:max-w-3xl w-full">

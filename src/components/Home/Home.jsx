@@ -19,10 +19,10 @@ const Home = () => {
             ref={homeRef}
             className="text-center max-w-lg w-full [&>*]:mb-5 lg:text-start"
           >
-            <h1 className="text-5xl lg:text-5xl lg:leading-[55px] font-bold ">
+            <h1 className="text-4xl lg:text-5xl lg:leading-[55px] font-bold ">
               We bring together people to achieve great things !
             </h1>
-            <h2 className="text-2xl font-lato text-primary">
+            <h2 className="text-xl md:text-2xl font-lato text-primary">
               The development of each work and the overall strategy will be
               visible to you. Never has tracking been more fun!
             </h2>

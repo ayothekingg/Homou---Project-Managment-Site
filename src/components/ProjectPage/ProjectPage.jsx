@@ -28,7 +28,7 @@ const ProjectPage = () => {
     <section className="bg-secondary py-20 mb-40 mt-20">
       <div className="flex flex-col items-center text-center lg:text-start lg:flex-row lg:ml-20  ">
         <div ref={projectRef} className="flex-[0_0_50%] ">
-          <div className="[&>svg]:w-96 [&>svg]:h-60 md:[&>svg]:w-[550px] md:[&>svg]:h-80 relative">
+          <div className="[&>svg]:max-w-96 [&>svg]:max-h-60 md:[&>svg]:max-w-[550px] md:[&>svg]:max-h-80 [&>svg]:w-full  relative">
             <svg
               width="630"
               height="412"
@@ -116,10 +116,10 @@ const ProjectPage = () => {
         </div>
         <div className="flex flex-col items-center project-bar">
           <div ref={projectRef} className=" mt-10 max-w-lg w-full [&>*]:mb-5">
-            <h1 className="text-5xl leading-[62px] text-manage">
+            <h1 className="text-4xl  md:text-5xl md:leading-[62px] text-manage">
               Managing Your projects Effectively with Us
             </h1>
-            <h2 className="text-2xl font-lato text-primary">
+            <h2 className="text-xl md:text-2xl font-lato text-primary">
               You would like to ask a question? Marius will provide you with the
               details you require to decide on the best course of action for
               your projects. To understand more about what Homou can do for you,

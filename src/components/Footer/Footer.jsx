@@ -28,8 +28,10 @@ const Footer = () => {
               </svg>
 
               <div className="max-w-[150px] [&>*]:my-1 flex-col mt-8">
-                <h1 className=" text-2xl">Stay Updated</h1>
-                <h2>Keep track of our new and Latest insight</h2>
+                <h1 className=" text-xl md:text-2xl">Stay Updated</h1>
+                <h2 className="text-sm md:text-xl">
+                  Keep track of our new and Latest insight
+                </h2>
                 <button className="text-white border-button rounded-xl px-8 py-1 hover:bg-button ">
                   Subscribe
                 </button>
@@ -38,8 +40,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="">
-          <h1 className="text-2xl">Learn More</h1>
-          <ul className="[&>*]:mt-4 text-footer">
+          <h1 className="text-xl md:text-2xl">Learn More</h1>
+          <ul className="[&>*]:mt-4 [&>*]:text-sm md:[&>*]:text-lg text-footer ">
             <li>
               <a href="#">Why us</a>
             </li>
@@ -62,8 +64,8 @@ const Footer = () => {
         </div>
         <div>
           {" "}
-          <h1 className="text-2xl">Support</h1>
-          <ul className="[&>*]:mt-4  text-footer">
+          <h1 className="text-xl md:text-2xl">Support</h1>
+          <ul className="[&>*]:mt-4 [&>*]:text-sm md:[&>*]:text-lg  text-footer">
             <li>
               <a href="#">Privacy Policy</a>
             </li>
@@ -80,8 +82,8 @@ const Footer = () => {
         </div>
         <div>
           {" "}
-          <h1 className="text-2xl">Solutions</h1>
-          <ul className="[&>*]:mt-4  text-footer">
+          <h1 className="text-xl md:text-2xl">Solutions</h1>
+          <ul className="[&>*]:mt-4 [&>*]:text-sm md:[&>*]:text-lg text-footer">
             <li>
               <a href="#">Management</a>
             </li>
@@ -101,8 +103,8 @@ const Footer = () => {
         </div>
         <div>
           {" "}
-          <h1 className="text-2xl">Follow Us</h1>
-          <ul className="[&>*]:mt-4  text-footer">
+          <h1 className="text-xl md:text-2xl">Follow Us</h1>
+          <ul className="[&>*]:mt-4 [&>*]:text-sm md:[&>*]:text-lg text-footer">
             <li>
               <a href="#">Twitter</a>
             </li>
@@ -119,7 +121,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <h1 className="text-center text-lg py-4">
+      <h1 className="text-center text-sm md:text-lg py-4">
         Designed by{" "}
         <a
           href="https://www.behance.net/dewuyiaderibi?tracking_source=search_users%7Cdewuyi%20aderibigbe"
