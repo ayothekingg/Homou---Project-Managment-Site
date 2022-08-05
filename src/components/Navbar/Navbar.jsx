@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav className="font-lato text-primary  lg:flex mb-24 md:ml-20 my-5 text-xl ">
-      <div className=" md:flex-[1_0_0%] lg:flex-[1_0_30%]">
+      <div className=" md:flex-[1_0_0%] lg:flex-[1_0_30%] cursor-pointer">
         <img src={homou} alt="logo" />
       </div>
 
