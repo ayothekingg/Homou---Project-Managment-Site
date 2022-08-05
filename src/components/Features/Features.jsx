@@ -109,7 +109,7 @@ const Features = () => {
           ref={featureRef}
           className="feature-ref max-w-sm w-full [&>*]:mb-8"
         >
-          <img className="block m-auto lg:inline" src={Timer} />
+          <img className="block m-auto lg:inline" src={Timer} alt="real-time" />
 
           <h1 className="text-3xl md:text-4xl text-manage">
             Real-time Collaboration
