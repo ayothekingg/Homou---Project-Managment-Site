@@ -2,7 +2,7 @@
 import gsap from "gsap";
 import { useRef, useEffect } from "react";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import BuzzFeed from "./BuzzFeed.jpg";
+import BuzzFeed from "./Buzzfeed.jpg";
 import Amazon from "./Amazon.jpg";
 import Nokia from "./Nokia.jpg";
 import WeWork from "./WeWork.jpg";
