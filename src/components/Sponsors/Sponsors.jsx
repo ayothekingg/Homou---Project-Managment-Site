@@ -69,7 +69,11 @@ const Sponsors = () => {
             <img className="mt-20" src={Nokia} alt="nokia-logo" />
           </div>
           <div className="sponsor-ref">
-            <img className="mt-16 -ml-8" src={WeWork} alt="wework-logo" />
+            <img
+              className="ml-4 md:mt-16 md:-ml-8"
+              src={WeWork}
+              alt="wework-logo"
+            />
           </div>
           <div className="sponsor-ref-two">
             <img className="md:-mt-0 -ml-4" src={Feebris} alt="feebris-logo" />

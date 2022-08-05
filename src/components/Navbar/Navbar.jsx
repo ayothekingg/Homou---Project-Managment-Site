@@ -13,7 +13,7 @@ const Navbar = () => {
         <img src={homou} alt="logo" />
       </div>
 
-      <div className="absolute cursor-pointer  right-4 top-0 lg:hidden">
+      <div className="absolute cursor-pointer  right-4 top-4 lg:hidden">
         <IoIosMenu
           className="text-5xl"
           onClick={() => {
