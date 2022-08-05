@@ -1,5 +1,5 @@
 /** @format */
-import homou from "./homou.jpg";
+import homou from "./Homou.jpg";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { IoIosMenu } from "react-icons/io";
 import { useState } from "react";
